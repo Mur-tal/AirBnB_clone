@@ -2,11 +2,8 @@ header{
     background-color: white;
     height: 70px;
     width: 100%;
-    border-bottom: 1px #CCCCCC;   
-}
-#logo-header {
-    height: 100%;
+    border-bottom: 1px #CCCCCC;
     background-image: url(../images/logo.png);
-    background-position: center;
-    margin-left: 20px;
+    background-position: 20px 50%;
+    background-repeat: no-repeat;
 }
