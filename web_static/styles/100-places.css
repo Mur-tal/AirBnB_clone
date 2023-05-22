@@ -1,0 +1,114 @@
+.places h1{
+    text-align: left;
+    font-size: 30px;
+}
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    display: inline-block;
+    min-height: 200px;
+    vertical-align: top;
+}
+.places h2 {
+    font-size: 30px;
+    /* text-align: center; */
+    margin-top: 5px;
+}
+.price_by_night {
+
+    color: #ff5a5f;
+    border: 4px solid #ff5a5f;
+    border-radius: 100%;
+    line-height: 60px;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    float: right;
+    position: relative;
+    top: -80px;
+}
+.information {
+    height: 80px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+    line-height: 140px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-position: 60% 10px;
+}
+
+.max_guest {
+    background-image: url(../images/icon_group.png);
+    background-repeat: no-repeat;
+}
+.number_rooms {
+    background-image: url(../images/icon_bed.png);
+    background-repeat: no-repeat;
+}
+.number_bathrooms {
+    background-image: url(../images/icon_bath.png);
+    background-repeat: no-repeat;
+}
+.user {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.description {
+    text-align: left;
+}
+.amenities_list ul,
+.reviews ul{
+    list-style-type: none;
+    padding: 0;
+}
+.amenities_list,
+.reviews {
+    margin-top: 40px;
+    text-align: left;
+}
+.amenities_list li {
+    padding-bottom: 3px;
+    text-indent: 30px;
+}
+
+.amenities_list h2,
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #dddddd;
+}
+.reviews h3 {
+    font-size: 14px;
+    margin-left: 0;
+}
+.reviews p {
+    font-size: 12px;
+    margin-top: 0;
+    text-align: left;
+}
+.tv {
+    background-image: url(../images/icon_tv.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+}
+.wifi {
+    background-image: url(../images/icon_wifi.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+}
+.pet {
+    background-image: url(../images/icon_pets.png);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+}
